@@ -133,7 +133,6 @@ start and end positions of the span."
         {:probabilities probs
          :spans (map to-native-span matches)}))))
 
-
 (defmulti make-detokenizer
   "Return a function for taking tokens and recombining them into a sentence
   based on a given model file."
